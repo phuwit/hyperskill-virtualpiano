@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    background-color: darkslategrey;
+    align-items: center;
+}
+
+.white-keys kbd{
+    display: flex;
+    background-color: white;
+    width: 8%;
+    height: 60%;
+    border-color: slategrey;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.black-keys kbd{
+    bottom: 150.5%;
+    display: flex;
+    position: absolute;
+    background-color: black;
+    width: 4%;
+    height: 30%;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1em;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.white-keys, .black-keys{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 90vh;
+}
+
+#U{
+    left: 68.75%;
+}
+#Y{
+    left: 60.5%;
+}
+#T{
+    left: 52.25%;
+}
+#E{
+    left: 35.5%;
+}
+#W{
+    left: 27.25%;
+}
